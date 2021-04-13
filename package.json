@@ -1,7 +1,7 @@
 {
   "name": "fadyadal.me",
   "description": "My personal website built in Gatsby, React, and Node.JS.",
-  "version": "0.1",
+  "version": "0.1.0",
   "author": "Fady Adal <fadya.adal@gmail.com>",
   "keywords": [
     "fady adal",
