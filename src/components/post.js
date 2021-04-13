@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import Navigation from "./navigation";
 import { toKebabCase } from "../helpers";
 
@@ -44,10 +44,9 @@ const Post = ({
         </div>
 
         {coverImage && (
-          <Img
-            fluid={coverImage.childImageSharp.fluid}
-            className={style.coverImage}
-          />
+          <GatsbyImage
+            image={coverImage.childImageSharp.gatsbyImageData}
+            className={style.coverImage} />
         )}
 
         {excerpt ? (
