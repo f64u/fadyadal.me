@@ -1,16 +1,10 @@
 {
-  "name": "gatsby-starter-hello-friend",
-  "description": "A simple starter for Gatsby. That's it.",
-  "version": "0.2.0",
-  "author": "Radek Kozieł <radoslaw.koziel@gmail.com>",
+  "name": "fadyadal.me",
+  "description": "My personal website built in Gatsby, React, and Node.JS.",
+  "version": "0.1",
+  "author": "Fady Adal <fadya.adal@gmail.com>",
   "keywords": [
-    "gatsby",
-    "minimal",
-    "starter",
-    "blog",
-    "theme",
-    "dark",
-    "light",
+    "fady adal",
     "personal site"
   ],
   "license": "MIT",
@@ -65,9 +59,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/panr/gatsby-starter-hello-friend"
+    "url": "https://github.com/fadyadal/fadyadal.me"
   },
   "bugs": {
-    "url": "https://github.com/panr/gatsby-starter-hello-friend/issues"
+    "url": "https://github.com/fadyadal/fadyadal.me/issues"
   }
 }
